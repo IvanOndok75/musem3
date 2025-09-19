@@ -1,0 +1,57 @@
+@media (max-width: 600px) {
+    header{
+        width: 100%;
+        height: 7%;
+        padding: 0;
+        margin: 0px;
+    }
+    nav{
+        gap: 10px;
+    }
+    section h2{
+       padding: 1% 5% 1% 5%;
+    }
+    img{
+        width: 150px;
+        padding: 1% 5% 1% 5%;
+    }
+}
+
+
+body{
+    margin: 0px;
+}
+header{
+    height: 150px;
+    background-image: url("./OIP.webp");
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+#cat{
+    display:flex;
+    
+}
+.opis{
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    
+}
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}
