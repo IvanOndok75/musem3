@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&display=swap');
 html{
     scroll-behavior: smooth;
 }
@@ -189,4 +190,13 @@ h2{
 img:hover{
     transform: scale(1.1);
     transition: 0.3s;
+}
+header h1{
+    font-family: "Bitcount Ink", sans-serif;
+    font-size: 30px;
+}
+.g{
+    font-size: 15px;
+    transform: scale(3);
+    padding: 15px;
 }
